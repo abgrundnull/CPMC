@@ -1,0 +1,38 @@
+#header{
+    padding: 10px;
+    background-color: blue;
+    height: 100px;
+    margin-bottom: 100px;
+}
+#container{
+    width: 80%;
+    padding: 2.0123%;
+    margin-bottom: 2.0123%;
+}
+#footer{
+    padding: 2.0123%;
+}
+ul li{
+    display: inline-block;
+    text-justify: auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 1.0345%;
+}
+a{
+    text-decoration: none;
+    color: mintcream;
+}
+body {
+    font: normal 0.825em '나눔바른고딕','Nanum barun gothic','Nanum Gothic','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;
+    color: #464646;
+    line-height: 1.6;
+}
+#dlehd{ 
+    height: 4em;
+    width: 100%;
+    background-color: black;
+    margin:0 auto;
+}
