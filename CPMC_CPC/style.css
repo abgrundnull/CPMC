@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font: normal 0.825em '나눔바른고딕','Nanum barun gothic','Nanum Gothic','돋움',Dotum,Helvetica,Verdana,Arial,sans-serif;
+    color: #464646;
+    line-height: 1.6;
+    background-color: darkgray;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.nabar {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    background-color: #263343;
+    padding: 8px 12px;
+}
+
+.navbar_logo {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar_logo i {
+    color: #d49466;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+}
+
