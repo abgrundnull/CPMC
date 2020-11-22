@@ -151,3 +151,17 @@ a{
     flex: 1 1 auto;
 }
 
+.item7 {
+    background: rgb(111, 170, 23);
+    flex: 1 1 auto;
+}
+
+.item5 i {
+    color: #f57f17;
+}
+.item6 i {
+    color: #0069c0;
+}
+.item7 i {
+    color: #ffea00;
+}
