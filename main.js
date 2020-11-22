@@ -3,6 +3,6 @@ const menu = document.querySelector('.navbar_menu');
 const icons = document.querySelector('nav_icons');
 
 toogleBtn.addEventListener('click', () => {
-    menu.classList.toggle('active');
-    icons.classList.toggle('active');
-});
+    menu.classList.toggle('on');
+    icons.classList.toggle('on');
+})

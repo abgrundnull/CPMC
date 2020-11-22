@@ -95,8 +95,8 @@ a{
         display: block;
     }
 
-    .navbar_menu.active,
-    .navbar_icons.active{
+    .navbar_menu.on,
+    .navbar_icons.on{
         display: flex;
     }
 }
