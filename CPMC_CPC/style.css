@@ -1,9 +1,13 @@
+/*-------헤더-------*/
 :root {
     --text-color: #f0f4f5;
     --background-color: #263343;
     --accent-color:#d49466
 }
 
+body, html {
+    height: 100%;
+}
 body{
     margin: 0;
 }
@@ -96,3 +100,54 @@ a{
         display: flex;
     }
 }
+
+/*----------------------container------------------------*/
+.cont {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 8px;
+}
+
+
+.item {
+    float: left;
+    width: 289px; height: 363px;
+    margin: 10px 20px 30px 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.item1 {
+    background: #ef9a9a;
+    flex: 1 1 auto;
+}
+
+.item2 {
+    background: #f48fb1;
+    flex: 1 1 auto;
+}
+
+.item3 {
+    background: #ce93d8;
+    flex: 1 1 auto;
+}
+
+.item4 {
+    background: #b39ddb;
+    flex: 1 1 auto;
+}
+
+.item5 {
+    background: #98caf9;
+    flex: 1 1 auto;
+}
+
+.item6 {
+    background: #9acd31;
+    flex: 1 1 auto;
+}
+
