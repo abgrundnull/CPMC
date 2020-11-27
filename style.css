@@ -2,7 +2,7 @@
 :root {
     --text-color: #f0f4f5;
     --background-color: #263343;
-    --accent-color:#d49466
+    --accent-color: #d49466
 }
 
 body, html {
@@ -43,10 +43,16 @@ a{
     padding: 8px 12px;
 }
 
-.navbar_menu li:hover {
+.may :hover{
+    background-color: darkolivegreen;
+    border-radius: 4px;
+}
+
+.now {
     background-color: var(--accent-color);
     border-radius: 4px;
 }
+
 .navbar_icons {
     list-style: none;
     color: var(--text-color);
@@ -99,7 +105,17 @@ a{
     .navbar_icons.on{
         display: flex;
     }
+
+    .header {
+        display: felx;
+        margin: 0;
+        justify-content: center;
+        background-color: var(--background-color);
+        padding: 8px 12px;
+    }
 }
+
+
 
 /*----------------------container------------------------*/
 .cont {
@@ -118,7 +134,6 @@ a{
     margin: 10px 20px 30px 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;
 }
 
 .item1 {
@@ -164,4 +179,10 @@ a{
 }
 .item7 i {
     color: #ffea00;
+}
+
+/*-------------footer-------------*/
+.footer {
+    background-color: beige;
+    margin: 1;
 }
